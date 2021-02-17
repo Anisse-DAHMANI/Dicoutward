@@ -10,4 +10,5 @@ import com.example.dicoutward.model.crafting.ItemCraftableDao;
 @Database(entities = {ItemCraftable.class}, version = 1)
 public abstract class AppDatabase extends RoomDatabase {
     public abstract ItemCraftableDao itemCraftableDao();
+    //test commit
 }
